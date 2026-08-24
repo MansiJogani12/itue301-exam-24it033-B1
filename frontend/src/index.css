@@ -1,0 +1,45 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+nav {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 30px;
+}
+
+.trainer-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.trainer-card,
+.booking-card {
+  border: 1px solid #ccc;
+  padding: 15px;
+  width: 220px;
+  border-radius: 8px;
+}
+
+.available-status {
+  font-weight: bold;
+}
+
+.unavailable-status {
+  font-weight: bold;
+  text-decoration: line-through;
+}
+
+.error {
+  font-weight: bold;
+}
+
+input,
+select,
+button {
+  padding: 8px;
+  margin: 5px;
+}
